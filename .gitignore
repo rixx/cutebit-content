@@ -1,0 +1,8 @@
+cache/
+develop_server.sh
+fabfile.py
+Makefile
+output/
+/**/__pycache__/
+themes/
+*.pyc

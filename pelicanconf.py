@@ -1,0 +1,66 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- #
+from __future__ import unicode_literals
+
+AUTHOR = 'rixx'
+SITENAME = 'cutebit'
+SITEURL = 'http://cutebit.de'
+
+PATH = 'content'
+
+TIMEZONE = 'Europe/Berlin'
+
+DEFAULT_LANG = 'en'
+
+# Feed generation is usually not desired when developing
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+
+# Blogroll
+LINKS = (('Pelican', 'http://getpelican.com/'),
+         ('Python.org', 'http://python.org/'),
+         ('Jinja2', 'http://jinja.pocoo.org/'),
+         ('You can modify those links in your config file', '#'),)
+
+# Social widget
+SOCIAL = (('You can add links in your config file', '#'),
+          ('Another social link', '#'),)
+
+# Uncomment following line if you want document-relative URLs when developing
+#RELATIVE_URLS = True
+
+THEME = "/home/pelican/cutebit/themes/pelican-cutebit-theme"
+
+
+# Stuff that wasn't in the default config
+USE_FOLDER_AS_CATEGORY = True
+DISPLAY_PAGES_ON_MENU = True
+DISPLAY_CATEGORIES_ON_MENU = False
+
+
+DEFAULT_DATE_FORMAT = '%a %d %B %Y'
+DEFAULT_CATEGORY = 'Science'
+DEFAULT_DATE = 'fs'
+DEFAULT_METADATA = ()
+IGNORE_FILES = ['.#*']
+MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra']
+TYPOGRIFY = True
+#ARTICLE_URL='posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/'
+#ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
+PAGE_DIR='pages'
+
+AUTHOR_SAVE_AS = ''
+
+DEFAULT_ORPHANS = 3
+DEFAULT_PAGINATION = 8
+
+SOCIAL = (('twitter', 'https://twitter.com/codingrixx'),
+      ('stack-overflow', 'http://stackoverflow.com/users/982635/rixx'),
+      ('github', 'https://github.com/rixx'),)
+
+USE_CUSTOM_MENU = True
+CUSTOM_MENUITEMS = (('Blog', 'blog'),
+	 ('Contact', 'pages/contact'),
+	 ('Projects', 'pages/projects'))
+
