@@ -39,18 +39,28 @@ DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
 
 
-DEFAULT_DATE_FORMAT = '%a %d %B %Y'
+DEFAULT_DATE_FORMAT = '%d %B %Y'
 DEFAULT_CATEGORY = 'Science'
 DEFAULT_DATE = 'fs'
 DEFAULT_METADATA = ()
 IGNORE_FILES = ['.#*']
 MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra']
 TYPOGRIFY = True
-#ARTICLE_URL='posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/'
-#ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
-PAGE_DIR='pages'
 
-AUTHOR_SAVE_AS = ''
+INDEX_URL='articles'
+INDEX_SAVE_AS=INDEX_URL+'/index.html'
+
+#ARTICLE_URL='posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/'
+ARTICLE_URL=INDEX_URL+'/{slug}'
+#ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
+ARTICLE_SAVE_AS=ARTICLE_URL+'/index.html'
+
+PAGE_DIR='pages'
+PAGE_URL= PAGE_DIR+'/{slug}'
+PAGE_SAVE_AS = PAGE_URL+'/index.html'
+
+AUTHOR_SAVE_AS = 'author/{slug}.html'
+AUTHOR_URL = 'author/{slug}.html'
 
 DEFAULT_ORPHANS = 3
 DEFAULT_PAGINATION = 8
@@ -60,7 +70,6 @@ SOCIAL = (('twitter', 'https://twitter.com/codingrixx'),
       ('github', 'https://github.com/rixx'),)
 
 USE_CUSTOM_MENU = True
-CUSTOM_MENUITEMS = (('Blog', 'blog'),
-	 ('Contact', 'pages/contact'),
+CUSTOM_MENUITEMS = (('Blog', INDEX_URL),
 	 ('Projects', 'pages/projects'))
 
