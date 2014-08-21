@@ -6,7 +6,6 @@ AUTHOR = 'rixx'
 SITENAME = 'cutebit'
 SITEURL = 'http://cutebit.de'
 
-PATH = 'content'
 
 TIMEZONE = 'Europe/Berlin'
 
@@ -23,15 +22,10 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
          ('You can modify those links in your config file', '#'),)
 
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
-
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
 THEME = "/home/pelican/cutebit/themes/cutebit"
-
 
 # Stuff that wasn't in the default config
 USE_FOLDER_AS_CATEGORY = True
@@ -65,11 +59,13 @@ AUTHOR_URL = 'author/{slug}.html'
 DEFAULT_ORPHANS = 3
 DEFAULT_PAGINATION = 8
 
-SOCIAL = (('twitter', 'https://twitter.com/codingrixx'),
+CONTACTS = (('twitter', 'https://twitter.com/codingrixx'),
       ('stack-overflow', 'http://stackoverflow.com/users/982635/rixx'),
       ('github', 'https://github.com/rixx'),)
+CONTACT_EMAIL = 'rixx-cutebit@cutebit.de'
 
 USE_CUSTOM_MENU = True
 CUSTOM_MENUITEMS = (('Articles', INDEX_URL),
-	 ('Projects', 'pages/projects'))
+	 ('Projects', 'pages/projects'),
+	 ('Contact', 'contact'))
 
