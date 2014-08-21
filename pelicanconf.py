@@ -70,6 +70,6 @@ SOCIAL = (('twitter', 'https://twitter.com/codingrixx'),
       ('github', 'https://github.com/rixx'),)
 
 USE_CUSTOM_MENU = True
-CUSTOM_MENUITEMS = (('Blog', INDEX_URL),
+CUSTOM_MENUITEMS = (('Articles', INDEX_URL),
 	 ('Projects', 'pages/projects'))
 
