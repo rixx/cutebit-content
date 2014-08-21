@@ -59,9 +59,9 @@ AUTHOR_URL = 'author/{slug}.html'
 DEFAULT_ORPHANS = 3
 DEFAULT_PAGINATION = 8
 
-CONTACTS = (('twitter', 'https://twitter.com/codingrixx'),
-      ('stack-overflow', 'http://stackoverflow.com/users/982635/rixx'),
-      ('github', 'https://github.com/rixx'),)
+CONTACTS = (('Twitter', 'https://twitter.com/codingrixx'),
+      ('Stack-Overflow', 'http://stackoverflow.com/users/982635/rixx'),
+      ('GitHub', 'https://github.com/rixx'),)
 CONTACT_EMAIL = 'rixx-cutebit@cutebit.de'
 
 USE_CUSTOM_MENU = True
