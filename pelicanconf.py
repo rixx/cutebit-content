@@ -30,7 +30,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-THEME = "/home/pelican/cutebit/themes/pelican-cutebit-theme"
+THEME = "/home/pelican/cutebit/themes/cutebit"
 
 
 # Stuff that wasn't in the default config
