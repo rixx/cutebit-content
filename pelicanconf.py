@@ -49,8 +49,8 @@ ARTICLE_URL=INDEX_URL+'/{slug}'
 #ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
 ARTICLE_SAVE_AS=ARTICLE_URL+'/index.html'
 
-PAGE_DIR='pages'
-PAGE_URL= PAGE_DIR+'/{slug}'
+PAGE_PATHS=['pages']
+PAGE_URL= PAGE_PATHS[0]+'/{slug}'
 PAGE_SAVE_AS = PAGE_URL+'/index.html'
 
 AUTHOR_SAVE_AS = 'author/{slug}.html'
@@ -67,5 +67,6 @@ CONTACT_EMAIL = 'rixx-cutebit@cutebit.de'
 USE_CUSTOM_MENU = True
 CUSTOM_MENUITEMS = (('Articles', INDEX_URL),
 	 ('Projects', 'projects'),
+	 ('About', 'about'),
 	 ('Contact', 'contact'))
 
