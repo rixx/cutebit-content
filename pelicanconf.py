@@ -66,6 +66,6 @@ CONTACT_EMAIL = 'rixx-cutebit@cutebit.de'
 
 USE_CUSTOM_MENU = True
 CUSTOM_MENUITEMS = (('Articles', INDEX_URL),
-	 ('Projects', 'pages/projects'),
+	 ('Projects', 'projects'),
 	 ('Contact', 'contact'))
 
