@@ -5,9 +5,8 @@ Tags: datastructures,meta,datatypes,basics
 Slug: adt
 Authors: rixx
 Summary: Abstract Data Types are not the same as Data Structures, and understanding this difference is important for understanding of the following articles detailling data types, data structures and their implementations.
-Status: draft
 
-*tl;dr:* ADT: definition of a stack as `data + push + pop + peek`. Data Structure: implementation of a stack as `linked list + push() + pop() + peek()`.
+**tl;dr:** ADT: definition of a stack as `data + push + pop + peek`. Data Structure: implementation of a stack as `linked list + push() + pop() + peek()`.
 
 There is a difference between ADT (abstract data structures) and data structures. Understanding it is necessary for getting the following articles about both abstract data structures and data types.
 
