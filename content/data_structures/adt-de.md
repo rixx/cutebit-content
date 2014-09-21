@@ -19,8 +19,8 @@ Ein ADT kann viele verschiedene Implementierungen haben, die sich in konkreten P
 
 **Beispiele:** Eine Liste ist ein ADT, und wird üblicherweise über die Funktionen `insert`, `get` und `delete` definiert (möglicherweise unter etwas anderen Namen). Der Stack ist ein weiterer bekannter ADT, der durch die Operationen `push`, `pop` und manchmal `peek` beschrieben wird.
 
-## Datendstrukturen
-*Datenstrukturen* dienen dazu, Daten so zu organisieren, dass sie gut genutzt werden können. Datenstrukturen kombiniert mit den benötigten Funktionen oder Methoden können Implementierungen eines ADT darstellen. Datenstrukturen, die in vielen Programmiersprachen zur Verfügung gestellt werden, sind zum Beispiel Strings, Integers, Listen, Dictionaries und Fließkommazahlen.
+## Datenstrukturen
+*Datenstrukturen* dienen dazu, Daten so zu organisieren, dass sie gut genutzt werden können. Datenstrukturen kombiniert mit den benötigten Funktionen oder Methoden können Implementierungen eines ADT darstellen. Datenstrukturen, die in vielen Programmiersprachen zur Verfügung gestellt werden, sind zum Beispiel Strings, Integer, Listen, Dictionaries und Gleitkommazahlen.
 
 **Beispiele:** Eine verkettete Liste kann eine Implementierung eines Stacks oder einer Liste sein, je nach dem, mit welchen Funktionen sie gepaart wird.
 
