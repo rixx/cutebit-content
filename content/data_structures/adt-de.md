@@ -2,8 +2,9 @@ Title: Abstrakte Datentypen vs Datenstrukturen
 Date:   2014-09-19
 Category: DataTypes
 Tags: datastructures,meta,datatypes,basics
-Slug: adt-de
+Slug: adt
 Authors: rixx
+Lang: de
 Summary: Abstrakte Datentypen und Datenstrukturen sind zwei sehr unterschiedliche Dinge, und den Unterschied zwischen den beiden zu verstehen, ist wichtig, um die folgenden Artikel über Datentypen, Datenstrukturen und verschiedene Implementierungen zu verstehen.
 
 **zl;ng:** ADT: Definition eines Stacks als `Daten + push + pop + peek`. Datenstruktur: Implementierung eines Stacks als `verkettete Liste + push() + pop() + peek()`.
