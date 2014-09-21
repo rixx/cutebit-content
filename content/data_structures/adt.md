@@ -8,7 +8,7 @@ Summary: Abstract Data Types are not the same as Data Structures, and understand
 
 **tl;dr:** ADT: definition of a stack as `data + push + pop + peek`. Data Structure: implementation of a stack as `linked list + push() + pop() + peek()`.
 
-There is a difference between ADT (abstract data structures) and data structures. Understanding it is necessary for getting the following articles about both abstract data structures and data types.
+There is a difference between ADT (abstract data types) and data structures. Understanding it is necessary for getting the following articles about both abstract data structures and data types.
 
 ## Abstract Data Types
 *Abstract Data Types* are defined by actions that may be performed on them. They are only a model of data objects and their methods. You could think of it as an interfaces (in Java terminology). 
