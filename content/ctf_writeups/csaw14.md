@@ -1,9 +1,8 @@
 Title: CSAW 2014 Writeup: pybabbies
-Date:   2014-09-19
+Date:   2014-09-26
 Category: writeups
 Tags: ctf,writeups,csaw,exploitation
 Slug: csaw14
-Status: Draft
 Authors: rixx
 Summary: Writeup of the pybabbies task at the recent CSAW14. Category: Exploitation. Points: 200. Team: krebs.
 
@@ -60,7 +59,7 @@ As you can see, this is a Python2 script. What it does is essentially the follow
 
 ## The Solution
 
-Now, what we really want to do, is getting access to a file without importing any module, sending executable input or using builtin functions. This means we need access to the `file` type, which we can use to access and open files.
+Now, what we really want to do, is getting access to a file without importing any module, sending executable input or using builtin functions. This means we need access to the `file` type, which we can use to access and open files. Sooo, how do we access a file without any of this?
 
     >>> subclasses = ().__class__.__base__.__subclasses__()
 
