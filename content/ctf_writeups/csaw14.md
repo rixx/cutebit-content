@@ -58,3 +58,19 @@ As you can see, this is a Python2 script. What it does is essentially the follow
 * It executes every (one-line) command we enter … except if it contains a banned word. Such as … `import`. Or `sys`. Or `os`. Or `eval` or `exec` or `input`. Basically everything we would want to escape the sandbox and find the keyfile.
 
 
+## The Solution
+
+Now, what we really want to do, is getting access to a file without importing any module, sending executable input or using builtin functions. This means we need access to the `file` type, which we can use to access and open files.
+
+    >>> subclasses = ().__class__.__base__.__subclasses__()
+
+This might look like a bit of magic, but it's really not that bad. Basically it takes a normal (albeit empty) tuple, `()`, then gets its class, which is `<type 'tuple'>`. `__base__` gets the base class of `tuple` which is `object`. `__subclasses__()` is closest to magic. It returns a list of weak references of the immediate subclasses of a class. Thankfully, in Python many classes subclass `object` directly. If this hadn't succeeded, we'd just gone on level further down the `__subclasses__()` output.
+
+But we were lucky: at `subclasses[40]` there was `<type 'file'>`. The remainder was just finding the keyfile.
+
+    >>> file_type = subclasses[40]
+    >>> key_file = file_type('./key','r')
+    >>> key = key_file.read()
+    >>> print(key)
+    flag{definitely_not_intro_python}
+
