@@ -41,11 +41,11 @@ IGNORE_FILES = ['.#*']
 MD_EXTENSIONS = ['codehilite(css_class=highlight)','extra']
 TYPOGRIFY = True
 
-INDEX_URL='articles'
+INDEX_URL=''
 INDEX_SAVE_AS=INDEX_URL+'/index.html'
 
 #ARTICLE_URL='posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/'
-ARTICLE_URL=INDEX_URL+'/{slug}'
+ARTICLE_URL='articles'+'/{slug}'
 #ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
 ARTICLE_SAVE_AS=ARTICLE_URL+'/index.html'
 
