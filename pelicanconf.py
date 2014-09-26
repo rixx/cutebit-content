@@ -32,6 +32,8 @@ I18N_SUBSITES = {
 	},
 }
 
+HIDE_UNTRANSLATED_CONTENT=True
+
 languages_lookup = {
 	'en': 'English',
 	'de': 'Deutsch',

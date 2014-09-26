@@ -2,6 +2,7 @@ Title: CSAW 2014 Writeup: pybabbies
 Date:   2014-09-26
 Category: writeups
 Tags: ctf,writeups,csaw,exploitation
+Lang: en
 Slug: csaw14
 Authors: rixx
 Summary: Writeup of the pybabbies task at the recent CSAW14. Category: Exploitation. Points: 200. Team: krebs.
