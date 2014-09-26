@@ -21,14 +21,14 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),)
 
-PLUGIN_PATH="/home/pelican/plugins"
+PLUGIN_PATHS=["/home/pelican/plugins"]
 PLUGINS=["i18n_subsites"]
 
 JINJA_EXTENSIONS = ['jinja2.ext.i18n']
 I18N_SUBSITES = {
 	'de': {
 		'SITENAME': 'cutebit',
-		'LOCALE': 'de_DE', #This is somewhat redundant with DATE_FORMATS, but IMHO more convenient
+		'LOCALE': 'de_DE.utf8', #This is somewhat redundant with DATE_FORMATS, but IMHO more convenient
 	},
 }
 
