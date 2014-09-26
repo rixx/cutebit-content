@@ -3,6 +3,7 @@ Date:   2014-09-19
 Category: DataTypes
 Tags: datastructures,meta,datatypes,basics
 Slug: adt
+Lang: en
 Authors: rixx
 Summary: Abstract Data Types are not the same as Data Structures, and understanding this difference is important for understanding of the following articles detailling data types, data structures and their implementations.
 

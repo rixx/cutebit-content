@@ -6,9 +6,9 @@ AUTHOR = 'rixx'
 SITENAME = 'cutebit'
 SITEURL = 'http://cutebit.de'
 
+THEME = "/home/pelican/cutebit/themes/cutebit"
 
 TIMEZONE = 'Europe/Berlin'
-
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
@@ -19,19 +19,42 @@ TRANSLATION_FEED_ATOM = None
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         ('Jinja2', 'http://jinja.pocoo.org/'),)
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+PLUGIN_PATH="/home/pelican/plugins"
+PLUGINS=["i18n_subsites"]
 
-THEME = "/home/pelican/cutebit/themes/cutebit"
+JINJA_EXTENSIONS = ['jinja2.ext.i18n']
+I18N_SUBSITES = {
+	'de': {
+		'SITENAME': 'cutebit',
+		'LOCALE': 'de_DE', #This is somewhat redundant with DATE_FORMATS, but IMHO more convenient
+	},
+}
+
+languages_lookup = {
+	'en': 'English',
+	'de': 'Deutsch',
+}
+
+def lookup_lang_name(lang_code):
+	return languages_lookup[lang_code]
+
+def my_ordered_items(dict):
+	items = list(dict.items())
+	# swap first and last using tuple unpacking
+	items[0], items[-1] = items[-1], items[0]
+	return items
+
+JINJA_FILTERS = {
+	'lookup_lang_name': lookup_lang_name,
+	'my_ordered_items': my_ordered_items,
+}
 
 # Stuff that wasn't in the default config
 USE_FOLDER_AS_CATEGORY = True
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
-
 
 DEFAULT_DATE_FORMAT = '%d %B %Y'
 DEFAULT_CATEGORY = 'Science'
