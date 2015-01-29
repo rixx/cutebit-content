@@ -1,5 +1,5 @@
 Title: CSAW 2014 Writeup: pybabbies
-Date:   2014-09-26
+Date:   2014-12-31
 Category: writeups
 Tags: ctf,writeups,csaw,exploitation
 Lang: en

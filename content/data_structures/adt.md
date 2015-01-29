@@ -1,5 +1,5 @@
 Title: Abstract Data Types vs Data Structures
-Date:   2014-09-19
+Date:   2015-01-07
 Category: DataTypes
 Tags: datastructures,meta,datatypes,basics
 Slug: adt
