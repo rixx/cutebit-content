@@ -42,3 +42,43 @@ OR you just trust the presets and call
 After the installation is complete, the Installer will provide you with a login credentials for the admin account. If you're lucky and the Apache installation went right, you can now just browse to your server's URL and log in.
 
 
+## Configuration
+
+Now, you're far from finished, because you need to set up a lot of things in order to see all interesting and current Puppet data in your Foreman web interface.
+
+### Puppet Reports
+
+To recieve Puppet Reports in Foreman, first ensure that all Puppet clients have the line
+
+    report = true
+
+in their `puppet.conf`. Next up:
+
+    wget https://raw.githubusercontent.com/theforeman/puppet-foreman/master/files/foreman-report_v2.rb
+    mv foreman-report_v2.rb /usr/lib/ruby/vendor_ruby/puppet/reports/foreman.rb
+
+Please check [here](http://theforeman.org/manuals/latest/index.html#3.5.4PuppetReports) that this link is correct and that the folder you move the file to contains the `tagmail.rb`. Create `/etc/puppet/foreman.yaml` by copying and adjusting the following:
+
+    ---
+    # Update for your Foreman and Puppet master hostname(s)
+    :url: "https://foreman.example.com"
+    :ssl_ca: "/var/lib/puppet/ssl/certs/ca.pem"
+    :ssl_cert: "/var/lib/puppet/ssl/certs/puppet.example.com.pem"
+    :ssl_key: "/var/lib/puppet/ssl/private_keys/puppet.example.com.pem"
+
+    # Advanced settings
+    :puppetdir: "/var/lib/puppet"
+    :puppetuser: "puppet"
+    :facts: true
+    :timeout: 10
+    :threads: null
+
+Lastly, add the following to the `[main]` section of your Puppet Master `puppet.conf` and then restart your Puppet service:
+
+    reports=log, foreman
+
+Now you should see Reports under Monitor -> Reports as soon as your Puppet agents do anything. You can trigger this by calling 
+
+    puppet agent --test
+
+on a Puppet client.
