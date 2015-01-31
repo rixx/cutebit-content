@@ -12,7 +12,7 @@ The Master/Slave pattern is a very common design pattern in software engineering
 
 The most popular usa of 'Master/Slave' is in the field of databases. Here descibes a scenario where the slave database(s) replicate everything the master database does, often by reading and replicating all `INSERT`, `DELETE` and `UPDATE` calls in the master database's binlog.
 
-It follows that the master database can recieve both read and write requests while the slave database can only work with read requests. It also should be noted that since the slave replicates both `UPDATE` and `DELETE` commands, a slave database is **not** suffivient as a backup.
+It follows that the master database can recieve both read and write requests while the slave database can only work with read requests. It also should be noted that since the slave replicates both `UPDATE` and `DELETE` commands, a slave database is **not** sufficient as a backup.
 
 ## Master/Slave: Divide and Conquer
 
