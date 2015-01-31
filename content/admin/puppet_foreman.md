@@ -82,3 +82,41 @@ Now you should see Reports under Monitor -> Reports as soon as your Puppet agent
     puppet agent --test
 
 on a Puppet client.
+
+### Puppet Facts via ENC
+
+    wget https://raw.githubusercontent.com/theforeman/puppet-foreman/2.2.3/files/external_node_v2.rb
+    mv external_node_v2.rb /etc/puppet/node.rb
+    chmod +x /etc/puppet/node.rb
+
+Put the following with the appropriate domain names and paths into the `/etc/puppet/foreman.yaml`:
+
+    ---
+    # Update for your Foreman and Puppet master hostname(s)
+    :url: "https://foreman.example.com"
+    :ssl_ca: "/var/lib/puppet/ssl/certs/ca.pem"
+    :ssl_cert: "/var/lib/puppet/ssl/certs/puppet.example.com.pem"
+    :ssl_key: "/var/lib/puppet/ssl/private_keys/puppet.example.com.pem"
+
+    # Advanced settings
+    :puppetdir: "/var/lib/puppet"
+    :puppetuser: "puppet"
+    :facts: true
+    :timeout: 10
+    :threads: null
+
+Add the following to the `[master]` section of the `puppet.conf`:
+
+    external_nodes = /etc/puppet/node.rb
+    node_terminus  = exec
+
+Now restart your Puppet Master and you should be fine. You can test the ENC script:
+
+    sudo -u puppet /etc/puppet/node.rb [the name of a node, eg agent.local]
+
+This should give some kind of meaningful output. Sometimes Foreman doesn't seem to incorporate some Facts despite recieving them. You can see them in the `YAML` field of a host, but not in the general host list. Force Foreman to get those  Facts by running
+
+    sudo -u puppet /etc/puppet/node.rb --push-facts
+
+
+Now you should be good to go. I'll add a further guide on how to actually use Foreman for more than just monitoring and reporting at some point in the future.
