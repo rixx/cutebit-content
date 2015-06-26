@@ -1,6 +1,7 @@
-Title: cv
-Heading: CV
+Title: cv - Friederike Kunze
+Heading: cv
 url: cv
+save_as: cv/index.html
 
 ## Education
 
