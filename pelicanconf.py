@@ -90,8 +90,9 @@ CONTACTS = (('Twitter', 'https://twitter.com/codingrixx'),
 CONTACT_EMAIL = 'rixx-cutebit@cutebit.de'
 
 USE_CUSTOM_MENU = True
-CUSTOM_MENUITEMS = (('Articles', INDEX_URL),
-	 ('Projects', 'projects'),
-	 ('About', 'about'),
-	 ('Contact', 'contact'))
+CUSTOM_MENUITEMS = (('blog', INDEX_URL),
+	 ('projects', 'projects'),
+	 ('cv', 'cv'),
+	 ('about', 'about'),
+	 ('contact', 'contact'))
 
