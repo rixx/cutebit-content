@@ -5,12 +5,16 @@ save_as: cv/index.html
 
 ## Education
 
- * B.Sc. in Applied Computer Science at DHBW Stuttgart in September 2015. Approx. GPA: 1.7 (converted: 3.3)
- * A levels (Abitur) in Berlin, Germany, in 2012. GPA: 1.2 (converted: 3.8)
+ * B.Sc. in Applied Computer Science at DHBW Stuttgart in September 2015. Final grade: 1.6 (equivalent to GPA 3.3)
+ * A levels (Abitur) in Berlin, Germany, in 2012. Final grade 1.2 (equivalent to GPA 3.8)
 
 ## Work Experience
 
-### 2012-present, student employee 
+### 2015-present, student employee
+
+I'm currently studying Software Engineering at the [University of Stuttgart](http://uni-stuttgart.de/). At the same time, I work at [AX Semantics](http://aexea.de/) as a student employee, working mostly with Python and Django.
+
+### 2012-2015, student employee 
 
 I alternated studying for my B.Sc. and working at [dmc digital media company](http://dmc.de) for the last three years. My projects included:
 

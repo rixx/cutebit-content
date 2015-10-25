@@ -6,3 +6,4 @@ output/
 /**/__pycache__/
 themes/
 *.pyc
+plugins/

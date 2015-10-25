@@ -6,7 +6,7 @@ AUTHOR = 'rixx'
 SITENAME = 'cutebit'
 SITEURL = 'http://cutebit.de'
 
-THEME = "/home/pelican/cutebit/themes/cutebit"
+THEME = "themes/cutebit"
 
 TIMEZONE = 'Europe/Berlin'
 DEFAULT_LANG = 'en'
@@ -21,7 +21,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),)
 
-PLUGIN_PATHS=["/home/pelican/plugins"]
+PLUGIN_PATHS=["/usr/share/webapps/cutebit.de/plugins"]
 PLUGINS=["i18n_subsites"]
 
 JINJA_EXTENSIONS = ['jinja2.ext.i18n']
