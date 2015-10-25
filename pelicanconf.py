@@ -6,7 +6,7 @@ AUTHOR = 'rixx'
 SITENAME = 'cutebit'
 SITEURL = 'http://cutebit.de'
 
-THEME = "/usr/share/webapps/cutebit.de/themes/cutebit"
+THEME = "themes/cutebit"
 
 TIMEZONE = 'Europe/Berlin'
 DEFAULT_LANG = 'en'

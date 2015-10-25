@@ -5,7 +5,7 @@ save_as: cv/index.html
 
 ## Education
 
- * B.Sc. in Applied Computer Science at DHBW Stuttgart in September 2015. Final grade: 1.6 (equivalent to GPA 3.3)
+ * B.Sc. in Applied Computer Science at DHBW Stuttgart in September 2015. Approximate final grade: 1.6 (equivalent to GPA 3.3)
  * A levels (Abitur) in Berlin, Germany, in 2012. Final grade 1.2 (equivalent to GPA 3.8)
 
 ## Work Experience
