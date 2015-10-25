@@ -6,7 +6,7 @@ AUTHOR = 'rixx'
 SITENAME = 'cutebit'
 SITEURL = 'http://cutebit.de'
 
-THEME = "themes/cutebit"
+THEME = "/usr/share/webapps/cutebit.de/themes/cutebit"
 
 TIMEZONE = 'Europe/Berlin'
 DEFAULT_LANG = 'en'
@@ -21,7 +21,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),)
 
-PLUGIN_PATHS=["/usr/share/webapps/cutebit.de/plugins"]
+PLUGIN_PATHS=["/usr/share/webapps/plugins"]
 PLUGINS=["i18n_subsites"]
 
 JINJA_EXTENSIONS = ['jinja2.ext.i18n']
@@ -32,7 +32,7 @@ I18N_SUBSITES = {
 	},
 }
 
-HIDE_UNTRANSLATED_CONTENT=True
+#HIDE_UNTRANSLATED_CONTENT=True
 
 languages_lookup = {
 	'en': 'English',
