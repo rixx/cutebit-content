@@ -1,5 +1,5 @@
 Title: DjangoCon Europe 2016 - The Frontend Revolution
-Date:   2016-03-30
+Date:   2016-03-30 00:01
 Category: conferences
 Tags: conferences,protocols,talks,python,django
 Lang: en

@@ -1,5 +1,5 @@
 Title: DjangoCon Europe 2016 - Going with the Flow with Django Admin
-Date:   2016-03-31
+Date:   2016-03-31 00:08
 Category: conferences
 Tags: conferences,protocols,talks,python,django
 Lang: en

@@ -1,5 +1,5 @@
 Title: DjangoCon Europe 2016 - To Mock or not to Mock, that is the Question
-Date:   2016-03-31
+Date:   2016-03-31 00:07
 Category: conferences
 Tags: conferences,protocols,talks,python,django
 Lang: en

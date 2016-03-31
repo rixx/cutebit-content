@@ -1,5 +1,5 @@
 Title: DjangoCon Europe 2016 - Healthy Minds in a Healty Community
-Date:   2016-03-30
+Date:   2016-03-30 00:02
 Category: conferences
 Tags: conferences,protocols,talks,python,django
 Lang: en

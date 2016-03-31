@@ -1,5 +1,5 @@
 Title: DjangoCon Europe 2016 - Learning Django, Learning French
-Date:   2016-03-30
+Date:   2016-03-30 00:03
 Category: conferences
 Tags: conferences,protocols,talks,python,django
 Lang: en

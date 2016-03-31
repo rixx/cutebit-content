@@ -1,5 +1,5 @@
 Title: DjangoCon Europe 2016 - What is ReactJS?
-Date:   2016-03-31
+Date:   2016-03-31 00:05
 Category: conferences
 Tags: conferences,protocols,talks,python,django
 Lang: en
