@@ -1,4 +1,4 @@
-Title: cv - Friederike Kunze
+Title: cv - Tobias Kunze
 Heading: cv
 url: cv
 save_as: cv/index.html
@@ -12,7 +12,7 @@ save_as: cv/index.html
 
 ### 2015-present, student employee
 
-I'm currently studying Software Engineering at the [University of Stuttgart](http://uni-stuttgart.de/). At the same time, I work at [AX Semantics](http://aexea.de/) as a student employee, working mostly with Python and Django.
+I'm currently studying Software Engineering at the [University of Stuttgart](http://uni-stuttgart.de/). At the same time, I work at [AX Semantics](http://aexea.de/) as a student employee, working with Python and Django. I also work with Celery, ElasticSearch, and various Django libraries.
 
 ### 2012-2015, student employee 
 
