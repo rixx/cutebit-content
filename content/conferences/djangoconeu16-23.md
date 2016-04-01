@@ -54,9 +54,9 @@ Geographic Data contains Points, Lines and Polygons, with these files, that need
     - one other
 
 **Sources:**
- - https://www.nhgis.org (historical and boundary files)
- - http://www.diva-gis.org/gdata (by country and subject
- - http://mrlc.gov (land use change over time)
+ - [historical and boundary files](https://www.nhgis.org)
+ - [by country and subject](http://www.diva-gis.org/gdata)
+ - [land use change over time](http://mrlc.gov)
 
 ## Geographic Model
 
@@ -76,5 +76,5 @@ Use [mapbox](https://mapbox.com) to add a map (like, background) to the project,
 leaflet to write css for map appearance.
 
 ## Examples
- - https://ungmap.com
- - https://theyburied.us
+ - [one](https://ungmap.com)
+ - [two](https://theyburied.us)

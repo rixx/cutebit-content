@@ -7,7 +7,7 @@ Authors: rixx
 Summary: Summary of the DjangoCon Europe 2016 talk "Django for IoT"
 
 **Speaker:** Anna Schneider ([twitter](https://github.com/windupanna)) has a PhD in biophysics and learned Django at the
-Hackathon where whe started WattTime. See also http://unconsciousbiasproject.org.
+Hackathon where whe started WattTime. See also [here](http://unconsciousbiasproject.org).
 
 ## IoT
 

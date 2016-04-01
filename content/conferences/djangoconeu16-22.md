@@ -97,7 +97,7 @@ set up.
 
 … can we use Toga for the web, too? Add a Toga backend for Web … ? Yeah, he did it.
 
-## https://freakboy3742.pythonanyware.com
+## [Example](https://freakboy3742.pythonanyware.com)
 
 That is a good beginning:
 
@@ -111,8 +111,8 @@ That is a good beginning:
 
 ## contact and links
 
- - https://cevinestpasun.com
- - https://pybee.com
+ - [link](https://cevinestpasun.com)
+ - [PyBee](https://pybee.com)
  - [@freakboy3742](https://twitter.com/@freakboy3742)
  - [mail](mailto:russell@keith-magee.com)
 

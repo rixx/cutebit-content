@@ -80,7 +80,7 @@ Use `docker-compose`, and other compose files: `docker-compose.yml`, `docker-com
 
 ## Emanuelle: Requirements for the Django+Ember workshop
 
-follow: http://bit.ly/djember_cc (cookiecutter, docker, vagrant)
+follow the [instructions](http://bit.ly/djember_cc)
 
 Also install Ember inspector and the Django Debug Panel.
 

@@ -53,5 +53,5 @@ The draft is by the IETF HTTPbis working group.
  - changes in frameworks are required: Django is not ready for HTTP/2
  - great opportunity for committers!
  - play around with the python package `hyper` (by [@lukasaoz](https://twitter.com/lukasaoz))
- - go to http://http2.github.io for specs and implementations
+ - go [here](http://http2.github.io) for specs and implementations
  - install wireshark and play

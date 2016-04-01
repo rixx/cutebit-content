@@ -61,5 +61,5 @@ Django will authenticate them and then re-hash the password and save it).
 
  - `django_encrypted_fields`
  - `django-secure`
- - https://ponycheckup.com
- - http://nerd.kelseyinnis.com/blog/2015/09/08/making-django-really-really-ridiculously-secure/
+ - [PonyCheckup](https://ponycheckup.com)
+ - [amazing talk](http://nerd.kelseyinnis.com/blog/2015/09/08/making-django-really-really-ridiculously-secure/)

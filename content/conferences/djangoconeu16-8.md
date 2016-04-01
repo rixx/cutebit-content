@@ -8,7 +8,7 @@ Summary: Summary of the DjangoCon Europe 2016 talk "Going with the Flow with Dja
 
 
 **Speaker:** Susan Tan ([twitter](https://twitter.com/arctansusan)) at Cisco via Piston, previously at Rotten Tomatoes.
-She also works on https://www.openhatch.org.
+She also works on [openhatch](https://www.openhatch.org).
 
 Upgrades are great because they fix bugs, provide security fixes, new features and make upgrading to even newer versions
 easier. Be aware of semantic versioning.
