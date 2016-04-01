@@ -1,5 +1,5 @@
 Title: DjangoCon Europe 2016 - The Power ⚡️ and Responsibility 😓 of Unicode Adoption ✨
-Date:   2016-03-31 01:01
+Date:   2016-03-31 01:03
 Category: conferences
 Tags: conferences,protocols,talks,python,django
 Lang: en

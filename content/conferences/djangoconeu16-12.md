@@ -1,5 +1,5 @@
 Title: DjangoCon Europe 2016 - Django for IoT: From Hackathon to Production
-Date:   2016-03-31 01:01
+Date:   2016-03-31 01:02
 Category: conferences
 Tags: conferences,protocols,talks,python,django
 Lang: en
