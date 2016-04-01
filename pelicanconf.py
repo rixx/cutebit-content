@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'rixx'
 SITENAME = 'cutebit'
-SITEURL = 'http://cutebit.de'
+SITEURL = 'https://cutebit.de'
 
 THEME = "themes/cutebit"
 
@@ -17,9 +17,9 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),)
+LINKS = (('Pelican', 'https://getpelican.com/'),
+         ('Python.org', 'https://python.org/'),
+         ('Jinja2', 'https://jinja.pocoo.org/'),)
 
 PLUGIN_PATHS=["/usr/share/webapps/plugins"]
 PLUGINS=["i18n_subsites"]
@@ -85,7 +85,7 @@ DEFAULT_ORPHANS = 3
 DEFAULT_PAGINATION = 8
 
 CONTACTS = (('Twitter', 'https://twitter.com/codingrixx'),
-      ('Stack-Overflow', 'http://stackoverflow.com/users/982635/rixx'),
+      ('Stack-Overflow', 'https://stackoverflow.com/users/982635/rixx'),
       ('GitHub', 'https://github.com/rixx'),)
 CONTACT_EMAIL = 'rixx-cutebit@cutebit.de'
 
