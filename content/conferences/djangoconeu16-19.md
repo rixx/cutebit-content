@@ -1,5 +1,5 @@
 Title: DjangoCon Europe 2016 - Day 2 Lightning Talks
-Date:   2016-03-31 00:19
+Date:   2016-03-31 01:19
 Category: conferences
 Tags: conferences,protocols,talks,python,django
 Lang: en
