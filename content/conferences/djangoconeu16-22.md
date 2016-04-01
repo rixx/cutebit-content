@@ -1,5 +1,5 @@
 Title: DjangoCon Europe 2016 - Beyond Web 2.0 - Django and Python in the modern web ecosystem
-Date:   2016-04-01 00:01
+Date:   2016-04-01 00:02
 Category: conferences
 Tags: conferences,protocols,talks,python,django
 Lang: en
