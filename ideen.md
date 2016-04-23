@@ -1,4 +1,8 @@
-# git
+# Ideen
+
+Alle davon sollten für Blogposts oder Lightning Talks gut sein
+
+## git
 
  * git aliase / usability hacks
     * git root
@@ -12,7 +16,7 @@
     * simple howto with examples
 
 
-# tools
+## tools
 
  * ssh config & tips
     * client: config!
@@ -29,18 +33,17 @@
  * pip all the features?
 
 
-# kurse
+## kurse
 
  * machine learning
  * das udacity norvig design ding
 
 
-# intro
+## intro
  * django einsteiger
  * ieee754 cheat sheet
 
+## Django+Python
 
-# talks
-
- * djangocon-talks
- * cccmedia
+ * DRF
+ * py.test
