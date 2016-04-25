@@ -1,4 +1,4 @@
-# Writing your own Django App, Part 0: What is this?
+# Writing Your Second Django App, Part 0: What Is This?
 
 Let's build a website in Django! Woo-hoo!
 
@@ -7,20 +7,22 @@ Let's build a website in Django! Woo-hoo!
 ### Why?
 
 There are a ton of good guides on Django apps out there, most notably the Django tutorial and the Django Girls Tutorial.
-I just want to document my way to go about building a Django app. I might learn something, y'all might learn something,
-everybody wins.
+But those are beginner level tutorials - I want to show my way of building a Django application with some more advanced
+features - we will talk about docker, Django Rest Framework, channels and py.test here! (No async and task queues here,
+leave that for you third Django app.)
 
 ### What?
 
 A friend of a friend suggested building a Battleship website to get into working with a (different) web framework. I
 liked the progression they suggested and decided to do the same in Django.
 
-Details of our requirements are covered in the [MILESTONES.md](link).
+Details of our requirements are covered in the
+[MILESTONES.md](https://github.com/rixx/BattlePony/blob/master/MILESTONES.md).
 
 ### How?
 
-I did the whole thing in a [GitHub repository](https://github.com/rixx/Battleship) that I used to work on this project
-and I'll reference commits of that project to document my progress.
+I did the whole thing in a [GitHub repository](https://github.com/rixx/BattlePony) that I used to work on this project
+and I'll reference tags of that project to document my progress.
 
 ## Prerequesites
 
@@ -30,12 +32,14 @@ understand.
 
 ## Order of Operations
 
+Links to the corresponding Blog Posts will follow as soon as those are up.
+
 1. Setting up the project
 2. Designing a data model
-3. Exposing an API
-4. Ugly yet simple Client implementation
-5. Non-game functionality: Leaderboards, Chats etc
-6. Improve UI
-7. Do real design work
-7. Play with WebSockets, ServiceWorkers etc
-
+3. Introducing users and permissions
+4. Exposing an API
+5. Ugly yet simple Client implementation
+6. Non-game functionality: Leaderboards, Chats etc
+7. Improve UI
+8. Do real design work
+9. Play with WebSockets, ServiceWorkers etc
