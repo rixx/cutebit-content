@@ -9,7 +9,7 @@ Let's build a website in Django! Woo-hoo!
 There are a ton of good guides on Django apps out there, most notably the Django tutorial and the Django Girls Tutorial.
 But those are beginner level tutorials - I want to show my way of building a Django application with some more advanced
 features - we will talk about docker, Django Rest Framework, channels and py.test here! (No async and task queues here,
-leave that for you third Django app.)
+leave that for your third Django app.)
 
 ### What?
 
