@@ -32,11 +32,28 @@ You want isolated development environments for each of your project, so that you
 libraries at different versions for different projects and general encapsulation. I went with docker for this project,
 but if this seems too much, too steep, too soon for you, you can try using `virtualenv`s (and maybe `virtualenvwrapper` for convenience) instead.
 
-### Docker
-
-
-
 ## Django
 
+
+### Docker
+
+I'm using `docker` and `docker-compose` here. Docker isolates applications and their library from each other and from
+the system they are working on (except for the kernel). Docker **containers** are like very very bare Linux operating
+systems while **images** contain software and configuration and are loaded into a container. There is a very beginner
+friendly [guide](https://docs.docker.com/linux/step_two/) and a more in-depth [architecture
+explanation](https://docs.docker.com/engine/understanding-docker/) that you might want to check out.
+Docker Compose is a tool to manage applications that need multiple docker containers - we will need at least a container
+for our Django application and one container for the database. Docker Compose is also rather [well
+documented](https://docs.docker.com/compose/overview/).
+
+The relevant files are the [Dockerfile](link) and the [docker-compose.yml](link), both are reasonably well documented.
+Basically, in `Dockerfile` we describe our basic Django image, and with the `docker-compose.yml` we link it to a generic
+PostgreSQL image. `docker-compose` is pretty easy to use:
+
+```shell
+docker-compose build   # build the containers
+docker-compose up -d   # start the containers in the background
+docker-compose logs    # see log-output of all containers
+```
 
 ## Tests and CI
