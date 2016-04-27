@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import os
 
 AUTHOR = 'rixx'
 SITENAME = 'cutebit'
@@ -21,7 +22,7 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
          ('Python.org', 'https://python.org/'),
          ('Jinja2', 'https://jinja.pocoo.org/'),)
 
-PLUGIN_PATHS=["/usr/share/webapps/plugins"]
+PLUGIN_PATHS=[os.path.join(os.path.dirname(os.path.realpath(__file__)), 'plugins')]
 PLUGINS=["i18n_subsites"]
 
 JINJA_EXTENSIONS = ['jinja2.ext.i18n']
