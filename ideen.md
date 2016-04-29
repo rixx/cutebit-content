@@ -15,6 +15,8 @@ Alle davon sollten für Blogposts oder Lightning Talks gut sein
  * gh pages
     * simple howto with examples
 
+ * libgit2, pygit2 & cool stuff
+
 
 ## tools
 
@@ -31,6 +33,7 @@ Alle davon sollten für Blogposts oder Lightning Talks gut sein
  * vim hacks / lessons learned
  * latex best practices & links
  * pip all the features?
+ * überhaupt config, secret vs other config
 
 
 ## kurse
@@ -47,3 +50,9 @@ Alle davon sollten für Blogposts oder Lightning Talks gut sein
 
  * DRF
  * py.test
+ * pybee tools
+
+## webstack resources
+
+ * nach level
+ * nach lerntyp
