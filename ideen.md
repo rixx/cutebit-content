@@ -6,6 +6,8 @@ Alle davon sollten für Blogposts oder Lightning Talks gut sein
 
  * git aliase / usability hacks
     * git root
+    * git trash
+    * git clean
     * git log
     * tab completion
 
@@ -16,6 +18,10 @@ Alle davon sollten für Blogposts oder Lightning Talks gut sein
     * simple howto with examples
 
  * libgit2, pygit2 & cool stuff
+    * use pygit2 for analysis!
+    * use pygit2 for actual interaction
+
+ * git rant: usability, https://git-man-page-generator.lokaltog.net/#
 
 
 ## tools
