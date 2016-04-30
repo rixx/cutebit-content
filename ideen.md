@@ -56,7 +56,9 @@ Alle davon sollten für Blogposts oder Lightning Talks gut sein
 
  * DRF
  * py.test
+    * ernsthaftes testen: tests im nachhinein in $alles einbauen
  * pybee tools
+ * pdb!!
 
 ## webstack resources
 
