@@ -88,7 +88,7 @@ DEFAULT_PAGINATION = 8
 CONTACTS = (('Twitter', 'https://twitter.com/codingrixx'),
       ('Stack-Overflow', 'https://stackoverflow.com/users/982635/rixx'),
       ('GitHub', 'https://github.com/rixx'),)
-CONTACT_EMAIL = 'rixx-cutebit@cutebit.de'
+CONTACT_EMAIL = 'rixx@cutebit.de'
 
 USE_CUSTOM_MENU = True
 CUSTOM_MENUITEMS = (('blog', INDEX_URL),
