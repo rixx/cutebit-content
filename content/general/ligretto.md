@@ -4,7 +4,6 @@ Category: general
 Tags: data,d3,ligretto,games
 Lang: en
 Authors: rixx
-Status: draft
 Summary: I played Ligretto with some friends and you won't believe what happened next.
 
 ## The Setting
@@ -55,7 +54,8 @@ a game. Looking at the whole game, our average score remained remarkably stable.
    the most points
  - Graphing things can be fun and easy - for these graphs, I played with 
    [mpld3](http://mpld3.github.io/) which compiles [matplotlib](http://matplotlib.org/) plots
-   to [d3.js](https://d3js.org/) svgs.
+   to [d3.js](https://d3js.org/) svgs. The (very simplistic, written on a train without access
+   to numpy docs) script is on [GithHub](https://github.com/rixx/game-stats/blob/master/ligretto/ligretto.py)
  - Everybody should play more Ligretto!
 
 
