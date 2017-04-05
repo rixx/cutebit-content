@@ -7,7 +7,7 @@ Authors: rixx
 Summary: Summary of the DjangoCon Europe 2017 Lightning talks pt 2
 
 
-## You want to maintain an open-source project?
+## You want to maintain an open-source project (@agaevsky)?
 
 It's not easy. It gets easier by getting more maintainers involved, or try to get funding, or transfer the project.
 
