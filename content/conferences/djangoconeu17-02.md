@@ -10,7 +10,7 @@ Summary: Summary of the DjangoCon Europe 2017 talk "The road to unempathic commu
 and co-organiser of various conferences) - also called "a neo-liberal emotional djihaidst"
 
 Imagine somebody falls for a scam - there is laughter, there is mocking. Because we are not empathic with the
-people caught in the scam - unexperienced people, sick people, … this is heartless.
+people caught in the scam - inexperienced people, sick people, … this is heartless.
 The tech community is very focussed on itself and neglects to be empathic to people different from us, whom we provide
 products and tools to.
 
@@ -31,7 +31,7 @@ impact and consequences.
 Refusing to adopt a Code of Conduct displays an appalling lack of even the slightest interest in making people safe or
 welcome in your community.
 
-People tend to think that "be knd, be polite" should be enough, **but** once you explain the deeper problems to them - 
+People tend to think that "be kind, be polite" should be enough, **but** once you explain the deeper problems to them - 
 they tend to start to understand the sense of a CoC.
 
 Things can be *very different* when you are a part of a marginalised group. (And this obviously effects empathy, since

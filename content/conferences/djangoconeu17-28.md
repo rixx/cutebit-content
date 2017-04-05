@@ -9,7 +9,7 @@ Summary: Summary of the DjangoCon Europe 2017 talk "Dial M For Mentor"
 **Speaker:** Mariatta Wijaya (contributor to python.org and CPython)
 
 We're all on a mission to learn things. Learning things will be hard. How do you deal with roadblocks? Do you give in to
-excueses, give up, and go back to your comfort zone? Or …
+excuses, give up, and go back to your comfort zone? Or …
 
 ## Reach out for help
 

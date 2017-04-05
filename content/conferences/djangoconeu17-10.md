@@ -22,7 +22,7 @@ Summary: Summary of the DjangoCon Europe 2017 talk "Radio Free Django - Building
 - Models for `Programme` and `Presenter`
 - Handle scheduling via weekday time fields (e.g. 14 fields in the model)
 - Handle recurrence and next-air date separately
-- Include hiatuses aswell
+- Include hiatuses as well
 - Provide programmes running now and next
 - To be released on GitHub
 
@@ -35,7 +35,7 @@ Summary: Summary of the DjangoCon Europe 2017 talk "Radio Free Django - Building
 
 - One PC to record dozens of live shows per week
 - Overlapping shows? Yeah …
-- Send to dropbox, trim, insert artwork, upload to MixCloud
+- Send to Dropbox, trim, insert artwork, upload to MixCloud
 - To be enhanced
 
 ## Lessons Learned

@@ -10,14 +10,14 @@ Summary: Summary of the DjangoCon Europe 2017 talk "Django’s watching my back(
 
 ## General
 
-Things have changed since 2003. The scopes and lifecycles have changed, new paradigms have appeared, especially with
+Things have changed since 2003. The scopes and life cycles have changed, new paradigms have appeared, especially with
 respect to the request/response cycle.
 
 Moving from template rendering to single page applications is maybe the way to go, providing just a REST API via Django,
 handling also identity management Django-side.
 
-The toolchain here includes primarily `restframework`, and `JWT` as auth tokens. Authentication and permission is
-compltely handled by `djangorestframework-jwt` and decorators/permission classes.
+The tool chain here includes primarily `restframework`, and `JWT` as auth tokens. Authentication and permission is
+completely handled by `djangorestframework-jwt` and decorators/permission classes.
 
 ## JSON Web Tokens (JWT)
 

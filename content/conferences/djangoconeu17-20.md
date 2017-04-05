@@ -21,7 +21,7 @@ Start development from user/usage scenarios. Use something structured to write t
 Gerkhin uses `Given`, `When` and `Then` as natural language keywords, allows boolean connections with `And` or `Or`, and
 variable grouping.
 
-Work on formulating release checklists aswell as feature files that describe the behaviours required to be present for a
+Work on formulating release checklists as well as feature files that describe the behaviours required to be present for a
 new release. Do not use those feature files for manual testing (too tedious and much), use checklists for that.
 
 But use something like `pytest-bdd` to work off these files, and look at something like
@@ -34,4 +34,4 @@ mock and patch a lot of stuff. Reuse those mocks and patches! Also mock other se
 `responses`. Think also of mocking failure states.
 
 Integration tests do not need to cover *everything*, because we still have the other three steps of the testing pyramid,
-btw. Do not overengineer here!
+btw. Do not over engineer here!

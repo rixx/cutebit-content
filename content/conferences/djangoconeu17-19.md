@@ -26,7 +26,7 @@ interested in the problem from the other side.
 
 ### Mistake 1: Validate, then build.
 
-No battle plan survives first contact with the enemy - same with software. Consider (strongly. repeatedly.) talking to
+No battle plan survives first contact with the enemy - same with software. Consider (strongly. Repeatedly.) talking to
 your potential users and customers first, to find out if you're on to a hobby project or an actual business. Don't
 conflate the two.
 
@@ -60,7 +60,7 @@ Word-of-mouth is a great sales channel - but relying on it fails to teach you ho
 door without personal introduction. The dangerous zone is: expensive enough to require sales people, too cheap to pay
 them.
 
-In order to close sales, people will have to believe you, or the cost of trial needs to be near zero. zero.
+In order to close sales, people will have to believe you, or the cost of trial needs to be near zero.
 
 ### Mistake 8: Sales don't stop when you sell.
 

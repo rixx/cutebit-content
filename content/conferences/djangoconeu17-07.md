@@ -6,7 +6,7 @@ Lang: en
 Authors: rixx
 Summary: Summary of the DjangoCon Europe 2017 talk "The art of interacting with an autistic software developer"
 
-**Speaker:** [Sara Peeters](https://twitter.com/aspigirlcodes) (Djangogirls organizer)
+**Speaker:** [Sara Peeters](https://twitter.com/aspigirlcodes) (Django Girls organizer)
 
 Note: All of this is information on Autism spectrum disorder that is kind of special to Sara. Autism is hard to
 generalize.
@@ -34,7 +34,7 @@ nausea or pain.
 * Written communication is preferable.
 * In the beginning a single contact person can be very helpful
 * Leave client contact to somebody else
-* Do not expect to handle smalltalk
+* Do not expect to handle small talk
 * Part time work and flexible work hours are very helpful
 * Provide inclusive coaching
 * Document your community, not only your tools

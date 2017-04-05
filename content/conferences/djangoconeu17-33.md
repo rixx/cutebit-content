@@ -10,7 +10,7 @@ Summary: Summary of the DjangoCon Europe 2017 talk "Solidarity of Systers"
 
 Approximately 150 illion girls under the age of 18 suffer from some sort of sexual violence per year. Solidarity of
 Systers provide possibility to get help from members, report past experiences, or share current experiences. The SOS
-chat provides contact to lawyers, docters, and NGOs.
+chat provides contact to lawyers, doctors, and NGOs.
 
 This app is written in Django, with a focus on confidential reporting for users - the security and safety of the users
 and their data is paramount!

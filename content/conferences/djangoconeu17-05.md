@@ -17,7 +17,7 @@ Describe APIs, make them browsable, make clients dynamic, make them self-descrip
 ### Routing
 
 Route all requests to an endpoint to one function, but then split up according to e.g. request type.
-This allows us to inspect the code and use docstrings of *two* methods for documentation.
+This allows us to inspect the code and use doc strings of *two* methods for documentation.
 
 ### Change the interface
 
@@ -32,7 +32,7 @@ Explicitly declared type annotations make assumptions clear to both users (via d
 
 ## JSON Schema
 
-JSON Schema is a machine readable formt for describitn data structures. It is widely adopted and can be used for both
+JSON Schema is a machine readable format for describing data structures. It is widely adopted and can be used for both
 documentation and validation and has a large range of capabilities.
 
 ## Merge those
@@ -48,7 +48,7 @@ annotations. If you use those with dependency injections: magic happens
 3. API documentation can be generated effortlessly, and is guaranteed to be in sync with the implementation
 4. Dynamic client libraries can be built schema-driven for various languages (JS, Python, CLI)
 5. Exposing your views as management functions
-6. Realtime APIs: route other protocols to the same views (except that depending on the protocol different magic needs
+6. Real time APIs: route other protocols to the same views (except that depending on the protocol different magic needs
    to e.g. retrigger the view)
 
 Look at the [ongoing project](https://github.com/tomchristie/apistar).

@@ -8,7 +8,7 @@ Summary: Summary of the DjangoCon Europe 2017 talk "Services, Architecture, Chan
 
 **Speaker:** Andrew Godwin (Django core developer and developer of Channels)
 
-## The Monolith and the Microservices
+## The Monolith and Microservices
 
 Django projects by default are monolithic: There is one version of every dependency, it is deployed at once, etc, but
 they can lead to spaghetti code and weird dependencies and unclear code paths in growing, large code bases.
@@ -25,13 +25,13 @@ and should follow reasonable separation of concerns and reasonable API design.
 * *Separate datastores and servers*, provides also different levels of security for different datasets.
 * *Figure out how to communicate between services*
 
-## Interservice communication
+## Inter service communication
 
 * Direct connections (with or without discovery via an Orchestrator): leads to lots of connections.
 * Centralized Routing
 * Shared message Bus
 
-Tradeoff decisions:
+Trade-off decisions:
 
 * *Centralized communcation*: great to handle, but single point of failure vs *Distributed communication*: Nasty partly failures.
 * *At-least-once delivery*: some messages duplicated vs *At-most-once delivery*: messages may be lost

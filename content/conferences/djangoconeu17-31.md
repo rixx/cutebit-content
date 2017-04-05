@@ -17,7 +17,7 @@ Summary: Summary of the DjangoCon Europe 2017 talk "Docker Lessons from Real-Wor
 ## The solution
 
 - Good isolation out of the box
-- Lots of tutorial online, but little pracitcal experience with bigger projects
+- Lots of tutorial online, but little practical experience with bigger projects
 
 ## Docker
 
@@ -30,7 +30,7 @@ Summary: Summary of the DjangoCon Europe 2017 talk "Docker Lessons from Real-Wor
 Build for Django, node, database, other services, and build for production first.
 
 For Django: Use the official `python` image, then install dependencies, add source code, and use volumes for data directories for
-assets, media and logss. The node container, on contrast, is only run once on deploy time to bundle css and js using
+assets, media and logs. The node container, on contrast, is only run once on deploy time to bundle css and js using
 webpack. Other services were mostly built using official images with little modification except for the use of volumes
 for data. All services communicate via network.
 
@@ -43,7 +43,7 @@ migrations, and start the containers (`docker-compose up`).
 
 Development does some things differently: Sources are not baked into images, postgres and other services are run
 locally, and all this is tied together via a different Docker Compose config. Source code is mounted as a volume,
-runserver is used instead of gunicorn (aswell as webpack watch mode), and Dockerfiles differ slightly, too. Postgres is
+runserver is used instead of gunicorn (as well as webpack watch mode), and Dockerfiles differ slightly, too. Postgres is
 run locally, with project specific volumes for data.
 
 ## Quirks
@@ -77,4 +77,3 @@ Migrating is hard, but starting with it might make sense. Check also Thorgate's 
 
 Consider carefully if you can spend a New Tech Point on docker? Because per-project you can only spend so many time and
 effort on new and unexplored technology.
-

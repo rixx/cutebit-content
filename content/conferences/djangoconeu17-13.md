@@ -12,11 +12,11 @@ Hey, nobody needs continuous delivery! Writing code is easy, tests write themsel
 Clients love you, and you love code internals to clients! Everyone obviously does continuous delivery, because it's so
 easy to set up!
 
-Please contribue to [Painless Cloud](https://painless.cloud), and try it out.
+Please contribute to [Painless Cloud](https://painless.cloud), and try it out.
 
 ## Using Sass in Django (@jacobrief)
 
 Sass is the "most mature, stable and powerful professional grade CSS extension language in the world".
 
 You need a watcher looking for changing css files (compass via ruby, gulp via npm or plugins for PyCharm). 
-Use `django-sass-processor`. Hs an API to compile SASS files, lazy compilation, offline usage, and a template tag.
+Use `django-sass-processor`. It's got an API to compile SASS files, lazy compilation, offline usage, and a template tag.

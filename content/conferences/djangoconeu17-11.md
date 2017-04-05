@@ -27,8 +27,8 @@ First off: this is a misnomer. There are still servers behind everything.
 All of these platforms have some command line deploy tool, and suddenly your script is available on the internet.
 Abstraction from containers in the cloud (from VMs in the cloud (from dedicated servers (from owned servers))).
 
-You can now have easy auto scaling (up aswell as down) and parallelisation. You can trigger functions with more than
-just HTTP requests - most platforms interface with logs, s3 uploads, pub/sub, email, and cron.
+You can now have easy auto scaling (up as well as down) and parallelisation. You can trigger functions with more than
+just HTTP requests - most platforms interface with logs, S3 uploads, pub/sub, email, and cron.
 
 Serverless platforms encourage better design: "Small pieces, loosely joined" and "write less code".
 
@@ -74,4 +74,4 @@ chalice deploy
 - Startup times (not below 5 minutes)
 - Platforms are not quite mature
 - No cost cap
-- No persistance
+- No persistence

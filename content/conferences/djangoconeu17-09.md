@@ -14,7 +14,7 @@ application, for the js framework of your choice.
 It provides an `Endpoint` class, similar to the `Admin` class. Can also use DRF viewsets.
 It provides a router (via drf_auto_endoint) to register models directly aswell as auto-discovery.
 
-The frontend is provided via an adapter set in the settings, that will produce framework dependend js code. The code
+The frontend is provided via an adapter set in the settings, that will produce framework dependent js code. The code
 will rely on a common base file (that will be overridden by subsequent updates) and model specific code files (which you
 can change without fear of overwriting).
 

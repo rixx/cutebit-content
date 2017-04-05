@@ -17,7 +17,7 @@ Django has lots of code, leading to less code in your project, until you start t
 And miss security patches. Oh. Use `raincoat`. Annotate code with the package, version, module and method you stole it from. It
 can then show you what changed since that release! Woo!
 
-## Human - communcation: @idanmelamed
+## Human - communication: @idanmelamed
 
 We inherit code.
 
@@ -29,6 +29,6 @@ Come and sprint on BeeWare to make Python available on all the platforms! Also, 
 
 ## Powerpoint templating with Django:  @xBBTx
 
-Export data to powerpoint. BECAUSE WE CAN^WMUST. `django-bureaucracy`: pluggable engines, knwon template language in
+Export data to PowerPoint. BECAUSE WE CAN^WMUST. `django-bureaucracy`: pluggable engines, known template language in
 Django (alternatively jinja2), custom tags/filters, rendering picture placeholders, pre-style tables and fill them in
 and much more.

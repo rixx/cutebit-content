@@ -22,11 +22,11 @@ Registration plates can be found by year in the UK with regexes such as `\w\w17\
 We want a nice API for this, such as (`plate__year=2017`). This can be implemented via a custom `Lookup`, defining a
 Lookup with the name `year`, and an `as_sql` method, returning a SQL string filtering for a regex plus a list of
 arguments (the original list twice, due to compiler magic). We then can register the lookup on the `CharField`.
-You can add lots of fancy validation logic here, aswell.
+You can add lots of fancy validation logic here, as well.
 
 But since plate patterns have changed too much, we really want to `.order_by(PlateYear(…))`. We could implement this
 with a very very long `Case`-`When` chaining, implementing that `year` logic in an annotation, then ordering by it.
-Put this in a function (`def PlayteYear(field): return Case(…)`), and boom! you're done.
+Put this in a function (`def PlayteYear(field): return Case(…)`), and boom! You're done.
 
 ## Encapsulating your logic
 
@@ -70,7 +70,7 @@ RelatedTaskManager`, and `pass` in the `__init__` method to avoid dark magic. An
 the `Vehicle` class.
 
 Additionally add a `RelatedTaskManager.get_prefetch_queryset(self, instances, queryset)`: we build a list of plates on
-the instances already loaded from the database, and then modify the queryset by filtering it by the plates already
+the instances already loaded from the database, and then modify the QuerySet by filtering it by the plates already
 found. We then return a 5-tuple of:
 
 ```python
@@ -102,4 +102,4 @@ Prefetching can apply to any way you can connect the two objects together. They 
 - We've finally got `SubQuery`!
 - We've got functional indexes
 - TBD: Virtual fields resolving to an expression
-- TBD: Lazily evaluated prefetching across multiple querysets
+- TBD: Lazily evaluated prefetching across multiple QuerySets

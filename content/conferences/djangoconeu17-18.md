@@ -11,7 +11,7 @@ Summary: Summary of the DjangoCon Europe 2017 talk "The OpenHolter project: DIY 
 ## Electro Cardiometry
 
 Measure the electric activity of your heart. The heart has a variety of mechanical and electrical systems.
-Heartbeats have a very typical electrical activity. If you measure it at six vectory, you'll get a complete picture of
+Heartbeats have a very typical electrical activity. If you measure it at six vectors, you'll get a complete picture of
 the heart works, and then you can add additional measure points at the extremities.
 
 ## Holter
@@ -24,7 +24,7 @@ own Holter (battery driven, so working for longer time frames).
 ## Open sourcing
 
 Important: cheap, easy, accessible, standard parts. Provide a simple interface and storage. Is open source and uses
-open source software and libaries.
+open source software and libraries.
 
 There were a lot of challenges involved, especially involving calculations of all kind, and sample rates via magic
 interrupts. Heartbeat detection was also nontrivial.
@@ -39,4 +39,4 @@ Creating an EKG journal vs just an EKG chart is much more valuable.
 Also required was an app to extract the data, enrich it with metadata, and present it in a well-structured way. Django
 was used to achieve this, allowing to select specific data slices, and attach metadata to it.
 
-Planned improvements are a lot, but the working version is already mor than impressive.
+Planned improvements are a lot, but the working version is already more than impressive.

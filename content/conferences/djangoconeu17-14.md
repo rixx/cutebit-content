@@ -13,18 +13,18 @@ Summary: Summary of the DjangoCon Europe 2017 talk "Navigating unconscious bias"
 Bias is prejudice in favor or against one thing, person, or group, compared with another, usually in a way that is
 considered unfair.
 
-Unconscious bias is present everwhere, produced e.g. by negative stereotypes:
+Unconscious bias is present everywhere, produced e.g. by negative stereotypes:
 
 - Men are breadwinners
 - Women are caring
 - Women can either be beautiful or intelligent
-- African-Americans are crimianls
+- African-Americans are criminals
 - Asian people are good math
 - Technical talks are held by men
 
 ## Stereotypes
 
-Stereotypes are damaging: they result in aggression, inability to focus, decreased performance, low health, dperession,
+Stereotypes are damaging: they result in aggression, inability to focus, decreased performance, low health, depression,
 hypertension …
 
 Both conscious and unconscious bias lead to barriers to entering areas contradicting stereotypes, both in learning
@@ -35,7 +35,7 @@ people leaving that area at higher rates.
 Women leave tech jobs at a higher raise than they leave non-tech jobs. Reasons may include simply the pay gap,
 unsupportive culture (eg via irrelevant feedback).
 
-Evidence of bias has been found against basically every marginalized group (gay people, even when legal, people with disabilites,
+Evidence of bias has been found against basically every marginalized group (gay people, even when legal, people with disabilities,
 even if unimportant to the job, mothers while fathers suffer no decrease in standing, and people of foreign origin).
 Belonging to several disadvantaged group increases this negative bias
 

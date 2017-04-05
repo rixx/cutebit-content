@@ -59,7 +59,7 @@ the ways in which to extend your project (not just very high-level and very low-
 - Respect the configurability of class-based views
 - Break views into mixins
 - Leave presentation logic in template tags, move rest into helpers
-- Breakreusable model parts into abstract models
+- Break reusable model parts into abstract models
 - Break model filter logic into queryset methods
 
 ## Refer to [djangoappschecklist.com](https://djangoappschecklist.com) for reference.

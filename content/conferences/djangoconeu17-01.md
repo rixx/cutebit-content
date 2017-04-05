@@ -33,5 +33,5 @@ jobs and a general problem with the weak economy.
 
 Solutions for this include people coming to speak in Zimbabwe, sponsoring of conferences, mentorship, and recruitment,
 and contribute to OSS growth in Africa in general. Feel free to get in touch with the [mailing
-list](python-africa@python.org), or participate in PyCon Zimbabwe 2017, eg by proposing a project for the sprints or
+list](python-africa@python.org), or participate in PyCon Zimbabwe 2017, e.g. by proposing a project for the sprints or
 submitting a talk.

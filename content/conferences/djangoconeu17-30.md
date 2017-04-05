@@ -17,7 +17,7 @@ expectations:
 - No homogeneous culture
 - No arrogant young techbros
 - No stupid apps
-- No to being a cofounder or first engineer
+- No to being a co-founder or first engineer
 - No to office more than 53km away
 
 ## Horrible things about the job interview process

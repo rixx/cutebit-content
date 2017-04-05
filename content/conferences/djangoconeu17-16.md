@@ -16,14 +16,14 @@ Marketing takes a lot of mental energy.
 
 Marketing is **necessary and worth it**.
 
-### Try to understand your customer, escpecially if the customer isn't you
+### Try to understand your customer, especially if the customer isn't you
 
 Figure out what the customer thinks/wants/uses, how they work. Go to local conferences etc.
 (Being your own customer is easier, btw.)
 
 ### Don't forget to add analytics
 
-Consider using [segment.com](https://segment.com) which can can save you time by managing external servicse.
+Consider using [segment.com](https://segment.com) which can can save you time by managing external services.
 Consider also using [briefmetics.com](https://briefmetics.com) to receive emails with your analytics overview.
 
 ### Have a landing page and collect email addresses
